@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dapur/static/css/main.f6e4d5cf.chunk.css",
+    "main.js": "/dapur/static/js/main.d8f128a2.chunk.js",
+    "main.js.map": "/dapur/static/js/main.d8f128a2.chunk.js.map",
+    "runtime-main.js": "/dapur/static/js/runtime-main.fce0b20e.js",
+    "runtime-main.js.map": "/dapur/static/js/runtime-main.fce0b20e.js.map",
+    "static/js/2.39eab50a.chunk.js": "/dapur/static/js/2.39eab50a.chunk.js",
+    "static/js/2.39eab50a.chunk.js.map": "/dapur/static/js/2.39eab50a.chunk.js.map",
+    "index.html": "/dapur/index.html",
+    "static/css/main.f6e4d5cf.chunk.css.map": "/dapur/static/css/main.f6e4d5cf.chunk.css.map",
+    "static/js/2.39eab50a.chunk.js.LICENSE.txt": "/dapur/static/js/2.39eab50a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fce0b20e.js",
+    "static/js/2.39eab50a.chunk.js",
+    "static/css/main.f6e4d5cf.chunk.css",
+    "static/js/main.d8f128a2.chunk.js"
+  ]
+}
