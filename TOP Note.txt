@@ -1,0 +1,12 @@
+# Installing eslint & prettier
+    npm i eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier prettier --save-dev
+
+# Deploying React into github
+    npm install gh-pages --save-dev
+<in package.json>
+    "homepage": "http://{username}.github.io/{repo-name}"
+    "scripts": {
+      //...
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    }

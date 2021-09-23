@@ -1,0 +1,51 @@
+@import "__toggle-switch";
+
+.terms {
+  &__paragraph {
+    font-style: italic;
+  }
+
+  &__btn-container {
+    display: flex;
+    justify-content: space-between;
+
+    > * {
+      display: flex;
+      gap: 0.25rem;
+
+      > p {
+        @include mobile {
+          width: 150px;
+        }
+      }
+    }
+
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+
+  &__tooltip {
+    width: 300px;
+    border-radius: 10px;
+    height: 3rem;
+    background-color: aliceblue;
+    margin-top: 2rem;
+    padding: 5px 1rem;
+    position: relative;
+
+    @include mobile {
+      width: 100%;
+    }
+
+    &:after {
+      position: absolute;
+      content: "";
+      bottom: 100%;
+      left: 1rem;
+      border-width: 0.8rem;
+      border-style: solid;
+      border-color: transparent transparent aliceblue transparent;
+    }
+  }
+}

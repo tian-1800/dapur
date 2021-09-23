@@ -1,0 +1,16 @@
+.submit {
+  &__check-box {
+    display: flex;
+    gap: 1rem;
+
+    > input {
+      width: 2rem;
+    }
+  }
+
+  &__btn {
+    float: right;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+  }
+}

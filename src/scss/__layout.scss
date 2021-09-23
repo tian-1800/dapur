@@ -1,0 +1,16 @@
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+.grid6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+  line-height: 2rem;
+
+  @include mobile {
+    grid-template-columns: repeat(3, auto);
+  }
+}

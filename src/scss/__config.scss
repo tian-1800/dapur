@@ -1,0 +1,32 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", Helvetica, sans-serif;
+  line-height: 1.5;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #ca7;
+  padding: 0 2rem;
+}
+
+section {
+  margin: 2rem auto;
+}
+
+input,
+select {
+  line-height: 2rem;
+  height: 2rem;
+  padding: 0 0.5rem;
+  display: block;
+}
+
+input {
+  width: 100%;
+}
